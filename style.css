@@ -48,7 +48,7 @@ body{
 }
 
 .btn:hover{
-    background: #0808dc;
+    background: blue;
 }
 
 .operator{
@@ -56,11 +56,11 @@ body{
 }
 
 .operator.hover{
-    background: #ff3e92;
+    background: salmon;
 }
 
 .equals{
-    background: #2c0bc0;
+    background: blue;
     grid-column: span 2;
 }
 
