@@ -1,8 +1,8 @@
 /*style.css*/
 body{
     font-family:'Arial',sans-serif;
-    background-color: #121212;
-    color: #ffff;
+    background-color: white;
+    color:white;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -19,20 +19,20 @@ body{
 }
 
 .display{
-    background: #262639;
+    background:yellowgreen;
     border-radius: 10px;
     font-size: 2.5rem;
     padding: 15px;
     margin-bottom: 20px;
     text-align: right;
     overflow-x: auto;
-    white-space: nowwrap;
+    white-space: nowrap;
     box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .buttons{
     display: grid;
-    grid-template-columns: repeat(4.1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
@@ -48,19 +48,19 @@ body{
 }
 
 .btn:hover{
-    background: #3f3f5a;
+    background: #0808dc;
 }
 
 .operator{
-    background: #ff9500;
+    background: orangered;
 }
 
 .operator.hover{
-    background: #ffac3e;
+    background: #ff3e92;
 }
 
 .equals{
-    background: #007aff;
+    background: #2c0bc0;
     grid-column: span 2;
 }
 
